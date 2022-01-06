@@ -23,7 +23,7 @@
           <h1 class="text-center py-3 bg-success text-light">
             Text To VoiceProject
           </h1>
-          <form action="" id="search-form">
+          <form action="" onSubmit="return false"id="search-form">
             <textarea
               id="search-input"
               cols="30"
@@ -35,7 +35,7 @@
               class="speech-btn pt-1 d-flex justify-content-between align-items-center"
             >
               <p class="instruction fs-5">Click the Mic icon to start</p>
-              <button class="btn btn-danger">
+              <button type="button" class="btn btn-danger">
                 <i class="fas fa-microphone"></i>
               </button>
             </div>
